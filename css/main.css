@@ -52,6 +52,7 @@ nav a {
   color: #6c8fe0;
   text-decoration: none;
   padding: .5em .75em;
+  white-space: nowrap;
 }
 
 nav a:hover {
@@ -105,7 +106,7 @@ nav a:hover {
 
   nav ul {
     float: right;
-    width: 60%;
+    width: auto;
     padding: .5em 0;
   }
 
