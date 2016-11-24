@@ -30,23 +30,23 @@ header {
   background-color: #18294f;
   padding: .3em 0 .5em;
   overflow: hidden;
+  color: #fff;
 }
 
-h1 {
-  color: #fff;
+header h1 {
   text-align: center;
   font-size: 2rem;
   margin: 0;
   padding: .5rem .75rem;
 }
 
-ul {
+nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-a {
+nav a {
   display: block;
   color: #6c8fe0;
   text-decoration: none;
@@ -54,7 +54,7 @@ a {
   padding: .5em .75em;
 }
 
-a:hover {
+nav a:hover {
   color: #fff;
   background-color: #6c8fe0;
 }
@@ -71,7 +71,7 @@ a:hover {
     width: 50%;
   }
 
-  a {
+  nav a {
     text-align: center;
   }
 
@@ -84,7 +84,7 @@ a:hover {
     line-height: 1.4;
   }
 
-  li {
+  nav li {
     width: 25%;
   }
 
@@ -97,19 +97,19 @@ a:hover {
     line-height: 1.5;
   }
 
-  h1 {
+  header h1 {
     float: left;
     width: 40%;
     text-align: left;
   }
 
-  ul {
+  nav ul {
     float: right;
     width: 60%;
     padding: .5em 0;
   }
 
-  li {
+  nav li {
     width: auto;
   }
 
